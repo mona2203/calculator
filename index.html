@@ -1,0 +1,48 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+   
+    <title> Calculator </title>
+    </head>
+    <body>
+        <div class="calculator">
+            <div>
+<input type="text" id="show" readonly>
+            </div>
+            <div class="buttons">
+                <div class="row">
+                <button class="btn"onclick="clearDisplay()">AC</button>
+                <button class="btn" onclick="squareroot('')">√</button>
+                <button class="btn" onclick="percentage('')">%</button>
+                <button class="btn" onclick="apendtodisplay('/')">/</button>
+            </div><div  class="row">
+                <button class="btn" onclick="apendtodisplay('7')">7</button>
+                <button class="btn" onclick="apendtodisplay('8')">8</button>
+                <button class="btn" onclick="apendtodisplay('9')">9</button>
+                <button class="btn" onclick="apendtodisplay('*')">X</button>
+            </div><div  class="row">
+                <button class="btn" onclick="apendtodisplay('4')">4</button>
+                <button class="btn" onclick="apendtodisplay('5')">5</button>
+                <button class="btn" onclick="apendtodisplay('6')">6</button>
+                <button class="btn" onclick="apendtodisplay('-')">-</button>
+            </div><div  class="row">
+                <button class="btn" onclick="apendtodisplay('1')">1</button>
+                <button class="btn" onclick="apendtodisplay('2')">2</button>
+                <button class="btn" onclick="apendtodisplay('3')">3</button>
+                <button class="btn" onclick="apendtodisplay('+')">+</button>
+            </div><div  class="row">
+                <button class="btn" onclick="apendtodisplay('0')">0</button>
+                <button class="btn" onclick="apendtodisplay('.')">.</button>
+                <button class="btn" onclick="removelast()">c</button>
+                <button class="btn"onclick="calculate()">=</button>
+            </div>
+            
+            </div>
+        </div>
+        <script src=" script.js"></script>
+    </body>
+</html>
